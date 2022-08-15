@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
   ifstream arquivo("numeros.txt");
-  string dados;
+  int dados;
   if (arquivo) {	//se o arquivo existe, faça...
     while ( arquivo >> dados )	
       cout << dados << endl; 
